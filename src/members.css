@@ -14,3 +14,22 @@ img{
 .member{
     display: flex;
 }
+
+.wrapper{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.wrapper > *{
+    cursor: pointer;
+}
+.selected-restaurant{
+    color: red;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}

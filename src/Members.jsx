@@ -1,6 +1,7 @@
 import {useState} from "react";
 import thumbs from './assets/thumbs.jpg'
 import shock from './assets/shock.jpg'
+import stubby from './assets/stubby.jpg'
 import './members.css'
 
 function Members() {
@@ -15,10 +16,18 @@ function Members() {
 
             <div className={"wrapper-right"}>
                 <div className={"member"}>
-                    <p className={"neenaText"}>demonic wench</p>
+                    <p className={"neenaText"}>addicted to pizza</p>
                     <img src={shock} alt={"picture of sabeena, shocked"}/>
                 </div>
             </div>
+
+            <div className={"wrapper-left"}>
+                <div className={"member"}>
+                    <img src={stubby} alt={"picture of stubby being demonic"}/>
+                    <p>creature from hell</p>
+                </div>
+            </div>
+
         </>
     )
 }
