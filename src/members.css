@@ -18,7 +18,10 @@ img{
 .wrapper{
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 5rem;
+    overflow: scroll;
+    white-space: nowrap;
+    font-size: 2rem;
 }
 .wrapper > *{
     cursor: pointer;
